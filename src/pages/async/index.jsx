@@ -67,6 +67,7 @@ const Index = () => {
             <>
               <View>Render when asyncReady</View>
               <Echarts
+                isPage={false}
                 echarts={echarts}
                 option={option}
                 onChartReady={() => {
