@@ -2,7 +2,8 @@ export default defineAppConfig({
   pages: [
     'pages/index/index',
     'pages/simple/index',
-    'pages/async/index'
+    'pages/async/index',
+    'pages/table/index',
   ],
   window: {
     backgroundTextStyle: 'light',

@@ -22,6 +22,9 @@ export default class Index extends Component {
         <View onClick={() => goToComponent('async')}>
           Async EChart load
         </View>
+        <View onClick={() => goToComponent('table')}>
+          Table
+        </View>
       </>
     )
   }
